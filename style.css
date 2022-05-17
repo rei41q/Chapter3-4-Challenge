@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-image: url("assets/main-bg.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+nav{
+    padding: 4px 0px 25px 0px;
+    background: rgb(0, 0, 0, 0.5);
+}
+.list ul li{
+    padding: 0px 0px 20px 0px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+.logo{
+    padding-left: 20px;
+    height: 1px;
+}
+.me{
+    padding-left: 150px;
+    height: 1px;
+   margin-left: 100px;
+}
+.daftar{
+   float: right;
+   padding-right: 80px;
+}
+.post{
+    color: white;
+    margin: 140px 10px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.play{
+    font-size: 30px;
+}
+.new{
+    font-size: 13px;;
+}
+button{
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    border: 0px;
+    background-color: rgb(218, 165, 32);
+    padding: 5px 80px 5px 80px;
+    font-size: 24px;
+    border-radius: 5px;
+    font-size: 10px;
+}
