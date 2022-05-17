@@ -1,11 +1,14 @@
 body{
     margin: 0;
-    background-image: url("./assets/main-bg.jpg");
+    background-image: url("assets/main-bg.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     color: white;
 }
-
+a{
+    color: white;
+   text-decoration: none;
+}
 nav{
     padding: 4px 0px 25px 0px;
     background: rgb(0, 0, 0, 0.5);
