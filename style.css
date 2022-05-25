@@ -264,7 +264,7 @@ h1{
     margin-left: 60%;;
     margin-top: 40px;
     margin-bottom: 20px;
-    
+    padding-top: 10px;
 
 }
 .b1{
@@ -294,7 +294,7 @@ h1{
 }
 
 .data2{
-    
+    padding-top: 10px;
     width:26vw;
     height:170px;
   
@@ -327,7 +327,7 @@ h1{
     margin-left: -9px;
 }
 .data3{
-    
+    padding-top: 10px;
     width:26vw;
     height:170px;
   
@@ -346,6 +346,15 @@ h1{
     position:absolute;
     margin-top: 20px;
     
+}
+.t1{
+    margin-left: 80%;
+}
+.t2{
+    margin-left: 80%;
+}
+.t3{
+    margin-left: 80%;
 }
 .gambardata3{
     background: url("./assets/aaron-williams.jpg");
