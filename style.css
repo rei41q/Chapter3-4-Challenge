@@ -194,14 +194,14 @@ button{
     position: absolute;
 }
 /* tz */
-.VL1 {
-    border-left: 6px solid green;
-    height: 500px;
+.garis1{
+    border-left: 3px solid white;
+    height: 128px;
+
+    margin-left: 42%; 
+    top: 30px;
     position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
-  }
+ }
 #hz4{
     background-image: url("./assets/requirements.png");
     margin: 0;
@@ -209,7 +209,7 @@ button{
     height: 650px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-top :1430px;
+    margin-top : 1430px;
   width: 100%;
     position: absolute;
 }
