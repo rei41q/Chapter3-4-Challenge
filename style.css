@@ -264,21 +264,35 @@ h1{
     margin-left: 60%;;
     margin-top: 40px;
     margin-bottom: 20px;
+    
 
-
+}
+.b1{
+    background: url("./assets/ellipse-orange.png");
+   background-size: 100% 100%;
+   width: 50px;
+   height: 50px;
+    background-repeat: no-repeat;
+    margin-left: 49%;
+    position:absolute;
+    margin-top: 20px;
+    
 }
 .gambardata1{
     background: url("./assets/evan-lahti.jpg");
-    height: 55px;
+    height: 50px;
     width:5vw;
+    width: 50px;
 
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    position: absolute;
+  
     border-radius: 40px;
-    margin-left: 47%;
-    margin-top: 25px;
+    margin-left: -20%;
+    margin-top: -1px;
+    
 }
+
 .data2{
     
     width:26vw;
@@ -290,16 +304,27 @@ h1{
     margin-bottom: 20px;
 
 }
+.b2{
+    background: url("./assets/ellipse-orange.png");
+   background-size: 100% 100%;
+   width: 50px;
+   height: 50px;
+    background-repeat: no-repeat;
+    margin-left: 38%;
+    position:absolute;
+    margin-top: 20px;
+    
+}
 .gambardata2{
     background: url("./assets/jada-griffin.jpg");
     height: 50px;
-    width:5vw;
+    width:50px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: absolute;
     border-radius: 50px;
-    margin-left: 37%;
-    margin-top: 15px;
+    margin-top: -2px;
+    margin-left: -9px;
 }
 .data3{
     
@@ -311,16 +336,27 @@ h1{
     margin-left: 60%;;
 
 }
+.b3{
+    background: url("./assets/ellipse-orange.png");
+   background-size: 100% 100%;
+   width: 50px;
+   height: 50px;
+    background-repeat: no-repeat;
+    margin-left: 50%;
+    position:absolute;
+    margin-top: 20px;
+    
+}
 .gambardata3{
     background: url("./assets/aaron-williams.jpg");
     height: 50px;
-    width:5vw;
+    width:50px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: absolute;
     border-radius: 30px;
-    margin-left: 48%;
-    margin-top: 15px;
+    margin-left: -20%;
+    margin-top: -2px;
 }
 .hz5text{
     position: absolute;
