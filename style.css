@@ -188,9 +188,10 @@ button{
 .post3{
     font-size: 20px;
     margin-left: 55%;
-    margin-top: 232px;
+    margin-top: 232px;    
     position: absolute;
 }
+/* tz */
 #hz4{
     background-image: url("./assets/requirements.png");
     margin: 0;
