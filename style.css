@@ -31,7 +31,7 @@ nav{
     font-size: 16px;  
     border: none;
     outline: none;
-    color: white;
+    color: rgb(255, 255, 255);
    
     background-color: inherit;
     font-family: inherit;
@@ -42,12 +42,14 @@ nav{
   
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: rgba(255, 255, 255, 0.1);
+    
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.603);
+   
     z-index: 3;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -57,15 +59,16 @@ nav{
   
   .dropdown-content a {
     float: none;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
+    border: 1px solid rgba(122, 184, 255, 0.078);
   }
   
   .dropdown-content a:hover {
-    background-color: rgba(250, 246, 129, 0.795);;
+    background-color: rgba(255, 255, 255, 0.253)
   }
   .dropdown{
       visibility: hidden;
@@ -254,7 +257,7 @@ button{
  
 }
 .post2{
-    font-size: 20px;
+    font-size: 3.8vmin;
     margin-left: 55%;
     margin-top: 100px;
     position: absolute;
@@ -274,6 +277,7 @@ button{
     top: 30px;
     position: absolute;
  }
+
 #hz4{
     background-image: url("./assets/requirements.png");
     margin: 0;
@@ -331,7 +335,7 @@ h1{
  
   
     background: rgb(25, 24, 23);
-    border-radius: 20px;
+    border-radius: 10px;
     margin-left: 70%;;
     margin-top: 40px;
     margin-bottom: 0px;
@@ -475,7 +479,7 @@ h1{
     color: white;
     margin-top: 10px;
     margin-left: 10%;
-    font-size: 20px;
+    font-size: 3vmin;
     width: 80%;
     display: block;
 }
