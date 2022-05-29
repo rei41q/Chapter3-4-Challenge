@@ -17,7 +17,7 @@ nav{
     padding: 4px 0px 25px 0px;
     background: rgb(0, 0, 0, 0.5);
     width: 100%;
-  
+
 }
 
 .dropdown {
@@ -72,6 +72,7 @@ nav{
     display: inline-block;
     font-family: 'Open Sans';
     font-size: 12px;
+    
 }
 
 .logo{
@@ -79,15 +80,15 @@ nav{
     height: 1px;
 }
 .me{
-    padding-left: 150px;
+    margin-left: 26%;
     height: 1px;
-    width: 100%;
-   margin-left: 100px;
+ 
 
 }
 .daftar{
    float: right;
    padding-right: 80px;
+
 }
 .post{
     color: white;
