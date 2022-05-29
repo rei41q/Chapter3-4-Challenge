@@ -2,12 +2,9 @@ body{
     margin: 0;
     background-image: url("./assets/main-bg.jpg");
     background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: no-repeat;   
     color: white;
     padding: 0;
-    position: absolute;
-    width: 100%;
 }
 
 
@@ -19,16 +16,64 @@ nav{
     
     padding: 4px 0px 25px 0px;
     background: rgb(0, 0, 0, 0.5);
-
     width: 100%;
   
 }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown{
+      visibility: hidden;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 .list ul li{
     padding: 0px 0px 0px 0px;
     display: inline-block;
     font-family: 'Open Sans';
     font-size: 12px;
 }
+
 .logo{
     padding-left: 20px;
     height: 1px;
@@ -36,7 +81,9 @@ nav{
 .me{
     padding-left: 150px;
     height: 1px;
+    width: 100%;
    margin-left: 100px;
+
 }
 .daftar{
    float: right;
@@ -64,28 +111,43 @@ button{
     font-size: 10px;
 }
 @media only screen and (max-width: 790px) {
-    body{
-        background-size: 100% 100%;
-    }
+
     .list ul li {
       width: 90%;
+      
     }
     nav{
         padding-bottom: 67px;
     }
     .me{
-        padding-left: 20%;
+        padding: 0;
+        margin: 0;
+        visibility: hidden;
+        
     }
     .daftar{
-        padding-left: 80%;
-        
+        padding: 0;
+        margin: 0;
+        visibility: hidden;
+   
     }
     .logo{
         font-size: 43px;
+        float: left;
     }
-    
-  }
+    .dropdown{
+        visibility: visible;
+        float:right;
+        padding: 0;
+        margin: 0;
+        margin-right: 25px;
+        margin-top: 7px;
+    }
 
+  }
+  
+  
+  
 #hz2 {
     margin: 0;
     padding: 0;
@@ -93,7 +155,7 @@ button{
     background-image: url('./assets/the-games-bg.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-top: 130px;
+   
     width: 100%;
     position: absolute;
 
@@ -167,7 +229,7 @@ button{
     height: 650px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-top: 780px;
+    margin-top: 650px;
     width: 100%;
     position: absolute;
 }
@@ -212,7 +274,7 @@ button{
     height: 650px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-top : 1430px;
+    margin-top : 1280px;
   width: 100%;
     position: absolute;
 }
@@ -223,7 +285,7 @@ button{
     height: 650px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-top :2030px;
+    margin-top :1930px;
     width: 100%;
     position: absolute;
 }
@@ -305,6 +367,7 @@ h1{
    width: 38px;
    margin-top: 20px;
     }
+    
 }
 .data2{
     padding-top: 10px;
@@ -315,6 +378,7 @@ h1{
     border-radius: 20px;
     margin-left: 45%;
     margin-bottom: 20px;
+    padding-right: 10%;
 
 }
 @media only screen and (max-width: 749px) {
@@ -368,7 +432,7 @@ h1{
   
     background: rgb(25, 24, 23);
     border-radius: 20px;
-    margin-left: 60%;;
+    margin-left: 50%;;
 
 }
 .b3{
@@ -377,33 +441,64 @@ h1{
    width: 50px;
    height: 50px;
     background-repeat: no-repeat;
-    margin-left: 50%;
+    margin-left: 15%;
     position:absolute;
     margin-top: 20px;
     
 }
+.t1{
+   position:relative;
+   margin-top: -10px;
+
+}
 .evan1{
     color: orange;
-    position:absolute;margin-left: 10%
+    margin-left: 40%
             ;font-size:2vw;display:inline; margin-top: 20px;font-weight: lighter;
 }
 .evan2{
     color: white;
     font-size: 1.5vw;
+    margin-left: 40%;
 }
 .evan3{
     color: white;
-    margin-top: 15px;
-    margin-left: -30%;
+    margin-top: 35px;
+    margin-left: 10%;
     font-size: 15px;
     width: 100%;
     display: block;
 }
 .evan4{
-    margin-top: 20px;
+    margin-top: 30px;
     color:darkgray;
-    margin-left: -30%;
-    font-size: 1.vw;
+    margin-left: 10%;
+    font-size: 1.5vw;
+}
+.jada1{
+    color: orange;
+   margin-left: 50%;
+   font-size:2vw;display:inline; 
+   margin-top: 20px;font-weight: lighter;
+}
+.jada2{
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 50%;
+}
+.jada3{
+    color: white;
+    margin-top: 40px;
+    margin-left: 10%;
+    font-size: 15px;
+    width: 100%;
+ 
+}
+.jada4{
+    margin-top: 10px;
+    color:darkgray;
+    margin-left: 10%;
+    font-size: 1.5vw;
 }
 .t1{
     margin-left: 80%;
@@ -420,10 +515,11 @@ h1{
     width:50px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    position: absolute;
+
     border-radius: 30px;
-    margin-left: -20%;
+    margin-left: -15%;
     margin-top: -2px;
+    position: absolute;
 }
 .hz5text{
     position: absolute;
@@ -455,7 +551,7 @@ h1{
     background-size: 100% 100%;
     width: 100%;
     position: absolute;
-    margin-top: 2680px;
+    margin-top: 2580px;
 }
 .gambar1h6{
     background: url("./assets/skull.png");
