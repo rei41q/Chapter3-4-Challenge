@@ -5,8 +5,8 @@ body{
     background-repeat: no-repeat;   
     color: white;
     padding: 0;
-}
 
+}
 
 a{
     color: white;
@@ -23,6 +23,8 @@ nav{
 .dropdown {
     float: left;
     overflow: hidden;
+ 
+
   }
   
   .dropdown .dropbtn {
@@ -30,23 +32,27 @@ nav{
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+   
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+
+   
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: rgb(255, 255, 255);
     z-index: 3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+
   }
   
   .dropdown-content a {
@@ -59,7 +65,7 @@ nav{
   }
   
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: rgba(250, 246, 129, 0.795);;
   }
   .dropdown{
       visibility: hidden;
@@ -142,7 +148,7 @@ button{
         padding: 0;
         margin: 0;
         margin-right: 25px;
-        margin-top: 7px;
+        margin-top: 15px;
     }
 
   }
@@ -283,7 +289,7 @@ button{
     background-image: url("./assets/top-score-bg.png");
     margin: 0;
     padding: 0;
-    height: 650px;
+    height: 1050px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-top :1930px;
@@ -322,15 +328,17 @@ h1{
 }
 .data1{
     
-    width:26vw;
-    height:30vh;
+ 
   
     background: rgb(25, 24, 23);
     border-radius: 20px;
-    margin-left: 60%;;
+    margin-left: 70%;;
     margin-top: 40px;
-    margin-bottom: 20px;
-    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+
+    
 
 }
 .b1{
@@ -456,6 +464,7 @@ h1{
     color: orange;
     margin-left: 40%
             ;font-size:2vw;display:inline; margin-top: 20px;font-weight: lighter;
+
 }
 .evan2{
     color: white;
@@ -464,17 +473,18 @@ h1{
 }
 .evan3{
     color: white;
-    margin-top: 35px;
+    margin-top: 10px;
     margin-left: 10%;
-    font-size: 15px;
-    width: 100%;
+    font-size: 20px;
+    width: 80%;
     display: block;
 }
 .evan4{
     margin-top: 30px;
     color:darkgray;
     margin-left: 10%;
-    font-size: 1.5vw;
+    font-size: 1vw;
+
 }
 .jada1{
     color: orange;
@@ -543,7 +553,7 @@ h1{
 .gambarhz5{
     margin-left: 23%;
 }
-#hzz6{
+/* #hzz6{
     background: black;
     margin: 0;
     padding: 0;
@@ -553,12 +563,12 @@ h1{
     width: 100%;
     position: absolute;
     margin-top: 2580px;
-}
-.gambar1h6{
+} */
+/* .gambar1h6{
     background: url("./assets/skull.png");
     background-size: 100% 100%;
     margin-top: 40px;
     width: 450px;
     height: 500px;
    
-}
+} */
