@@ -553,14 +553,39 @@ h1{
 }
 .nav2gambar{
     float: right;
-    margin-top: -50px;
-    margin-right: 3%;
+    margin-top: -40px;
+    margin-right: -25%;
 }
 .nav2text{
    font-size: 1.2vw;
     width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 19px;
   
+}
+.hz6gambar{
+    background-image: url("./assets/skull.png");
+    background-size: 100% 100%;
+    width: 30%;
+    height: 400px;
+    margin-top: -50px;
+    margin-left: -35%;
+    position:absolute;
+
+}
+.nav3text{
+    font-size: 1.2vw;
+    float: left;
+    margin-top: 5px;
+  
+}
+.nav3text a{
+    color: gray;
+  
+}
+.nav4text{
+    font-size: 1.2vw;
+    margin-top: 5px;
+    float: right;
 }
 
 /* @media only screen and (max-width: 849px) {
