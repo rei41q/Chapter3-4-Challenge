@@ -348,29 +348,29 @@ h1{
 .b1{
     background: url("./assets/ellipse-orange.png");
     background-size: 100% 100%;
-   width: 60px;
-   height: 60px;
+    height: 3.5vw;
+    width: 3.5vw;
     background-repeat: no-repeat;
-    margin-left: 49%;
+    margin-left: 3%;
     position:absolute;
-    margin-top: 20px;
+    margin-top: 5px;
     
 }
 .gambardata1{
     background: url("./assets/evan-lahti.jpg");
-   height: 60px;
-   width: 60px;
+   height: 3.5vw;
+   width: 3.5vw;
 
     background-size: 100% 100%;
     background-repeat: no-repeat;
   
     border-radius: 40px;
     margin-left: -20%;
-    margin-top: -1px;
+
     position: absolute;
-    
+    margin-top: -2px;
 }
-@media only screen and (max-width: 1050px) {
+/* @media only screen and (max-width: 1050px) {
     .gambardata1{
     height: 38px;
    width: 38px;
@@ -381,7 +381,7 @@ h1{
    margin-top: 20px;
     }
     
-}
+} */
 .data2{
     padding-top: 10px;
     width:26vw;
@@ -394,7 +394,7 @@ h1{
     padding-right: 10%;
 
 }
-@media only screen and (max-width: 749px) {
+/* @media only screen and (max-width: 749px) {
     .gambardata1{
     height: 20px;
    width: 20px;
@@ -404,7 +404,7 @@ h1{
         height: 20px;
    width: 20px;
     }
-}
+} */
 .data2{
     padding-top: 10px;
     width:26vw;
@@ -466,14 +466,14 @@ h1{
 }
 .evan1{
     color: orange;
-    margin-left: 40%
+    margin-left: 30%
             ;font-size:2vw;display:inline; margin-top: 20px;font-weight: lighter;
 
 }
 .evan2{
     color: white;
     font-size: 1.5vw;
-    margin-left: 40%;
+    margin-left: 30%;
 }
 .evan3{
     color: white;
@@ -545,14 +545,24 @@ h1{
 .button2{
     font-weight: bold;
     height : 50px;
-    font-size: 12px;
+    font-size: 16px;
+    width: 240px;
+    min-width: 100px;
+    text-align: center;
+    position: relative;
+}
+@media only screen and (max-width:480px){
+    .button2{
+        width: 30px;
+    }
 }
 .texth51{
     font-size: 4vw;
 }
 .texth52{
     margin-top: 26px;
-  width: 65%;
+  width: 60%;
+  position: relative;
 }
 .gambarhz5{
     margin-left: 23%;
