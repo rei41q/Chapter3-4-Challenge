@@ -39,7 +39,7 @@
     width: 80px;
     height: 80px;
     margin-bottom: 40px;
-    cursor: pointer;
+    cursor: wait;
 }
 #p2gunting{
     background-image: url(./asetgame/gunting.png);
@@ -47,7 +47,7 @@
     width: 80px;
     height: 80px;
     margin-bottom: 40px;
-    cursor: pointer;
+    cursor: wait;
 }
 #p2kertas{
     background-image: url(./asetgame/kertas.png);
@@ -55,7 +55,7 @@
     width: 80px;
     height: 80px;
     margin-bottom: 40px;
-    cursor: pointer;
+    cursor: wait;
 }
 #refresh{
     background-image: url(./asetgame/refresh.png);
