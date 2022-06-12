@@ -74,7 +74,7 @@
     text-align: center;
 }
 .game1{
-   margin-top: 150px;
+   margin-top: 90px;
    margin-left: 10%;
 }
 .pemain1{
@@ -103,4 +103,17 @@
     font-size: 30px;
     color : #f6b23c;
     margin-left: 10%;
+        position: absolute;
+        margin-top: 13px;
+}
+.logo{
+    display: inline-block;
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 3px;
+    background-image: url(./asetgame/logo2.png);
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+
 }
