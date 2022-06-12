@@ -2,11 +2,15 @@
 let player1 = document.getElementsByClassName("player1")
 let player2 = document.getElementsByClassName("bot");
 let reset = document.getElementById("refresh");
-let indexplayer1=0,indexplayer2=0;
-let keteranganmenangplayer1 = "PLAYER 1 WIN";
-let keteranganmenangplayer2 = "COM WIN";
-let keterangandraw = "DRAW";
 
+
+class dataawal{
+    static indexplayer1=0;
+    static indexplayer2=0;
+    static keteranganmenangplayer1 = "PLAYER 1 WIN";
+    static keteranganmenangplayer2 = "COM WIN";
+    static keterangandraw = "DRAW";
+}
 function startgame(){
     for(let i = 1 ; i<player1.length ; i++){
         player1[i].addEventListener("click", handleClick.bind( null, i) );
@@ -23,7 +27,7 @@ reset.onclick = function(){
 function handleClick(i) {
         resetbackground(); 
         gantibackground(i);
-        indexplayer1 = i;
+        dataawal.indexplayer1 = i;
         komputermemilih(i);
 }
 function gantibackground(i){
@@ -50,40 +54,40 @@ function setAttributemenang(){
 }
 function cekpemenang(indexplayer1, indexplayer2){
     if(indexplayer1 == 1 && indexplayer2 ==1){
-        pemenang.innerHTML = keterangandraw;
+        pemenang.innerHTML = dataawal.keterangandraw;
         setAttributemenang();
        
     }
     else if(indexplayer1 == 1 && indexplayer2 ==2){
-        pemenang.innerHTML = keteranganmenangplayer2;
+        pemenang.innerHTML = dataawal.keteranganmenangplayer2;
         setAttributemenang();
     }
     else if(indexplayer1 == 1 && indexplayer2 ==3){
-        pemenang.innerHTML =  keteranganmenangplayer1;
+        pemenang.innerHTML =   dataawal.keteranganmenangplayer1;
         setAttributemenang();
     }
     else if(indexplayer1 == 2 && indexplayer2 ==1){
-        pemenang.innerHTML =  keteranganmenangplayer1;
+        pemenang.innerHTML =   dataawal.keteranganmenangplayer1;
         setAttributemenang();
     }
     else if(indexplayer1 == 2 && indexplayer2 ==2){
-        pemenang.innerHTML = keterangandraw;
+        pemenang.innerHTML =  dataawal.keterangandraw;
         setAttributemenang();
     }
     else if(indexplayer1 == 2 && indexplayer2 ==3){
-        pemenang.innerHTML =  keteranganmenangplayer2;
+        pemenang.innerHTML =   dataawal.keteranganmenangplayer2;
         setAttributemenang();
     }
     else if(indexplayer1 == 3 && indexplayer2 ==1){
-        pemenang.innerHTML =  keteranganmenangplayer2;
+        pemenang.innerHTML =   dataawal.keteranganmenangplayer2;
         setAttributemenang();
     }
     else if(indexplayer1 == 3 && indexplayer2 ==2){
-        pemenang.innerHTML =  keteranganmenangplayer1;
+        pemenang.innerHTML =   dataawal.keteranganmenangplayer1;
         setAttributemenang();
     }
     else if(indexplayer1 == 3 && indexplayer2 ==3){
-        pemenang.innerHTML = keterangandraw;
+        pemenang.innerHTML =  dataawal.keterangandraw;
         setAttributemenang();
     }
     consolelogterminal(indexplayer1, indexplayer2);
