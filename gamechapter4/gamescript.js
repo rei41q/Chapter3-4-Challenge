@@ -31,7 +31,7 @@ function handleClick(i) {
         komputermemilih(i);
 }
 function gantibackground(i){
-    player1[i].setAttribute("style","background-color : #c4c4c4");
+    player1[i].setAttribute("style","background-color : #c4c4c4;");
 }
 function resetbackground(){
     for(let i = 1 ; i<player1.length ; i++){
@@ -50,7 +50,7 @@ function consolelogterminal(indexplayer,indexkomputer){
 function setAttributemenang(){
     pemenang.setAttribute
     ("style",
-    "background-color : green;color: white;transform: rotate(-15deg);margin-left: 25%;");
+    "background-color : green;color: white;transform: rotate(-15deg);margin-left: 21%;width: 14vw");
 }
 function cekpemenang(indexplayer1, indexplayer2){
     if(indexplayer1 == 1 && indexplayer2 ==1){

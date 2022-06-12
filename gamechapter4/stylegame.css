@@ -1,10 +1,11 @@
  body{
     background-color: #9b835f;
+
  }
  #p1batu{
     background-image: url(./asetgame/batu.png);
     background-size: 100% 100%;
-    width: 80px;
+    width: 7vw;
     height: 80px;
     margin-bottom: 40px;
     cursor: pointer;
@@ -12,7 +13,7 @@
 #p1gunting{
     background-image: url(./asetgame/gunting.png);
     background-size: 100% 100%;
-    width: 80px;
+    width: 7vw;
     height: 80px;
     margin-bottom: 40px;
     cursor: pointer;
@@ -20,7 +21,7 @@
 #p1kertas{
     background-image: url(./asetgame/kertas.png);
     background-size: 100% 100%;
-    width: 80px;
+    width: 7vw;
     height: 80px;
     margin-bottom: 40px;
     cursor: pointer;
@@ -36,7 +37,7 @@
 #botbatu{
     background-image: url(./asetgame/batu.png);
     background-size: 100% 100%;
-    width: 80px;
+    width: 7vw;
     height: 80px;
     margin-bottom: 40px;
     cursor: wait;
@@ -44,7 +45,7 @@
 #botgunting{
     background-image: url(./asetgame/gunting.png);
     background-size: 100% 100%;
-    width: 80px;
+    width: 7vw;
     height: 80px;
     margin-bottom: 40px;
     cursor: wait;
@@ -52,7 +53,7 @@
 #botkertas{
     background-image: url(./asetgame/kertas.png);
     background-size: 100% 100%;
-    width: 80px;
+    width: 7vw;
     height: 80px;
     margin-bottom: 40px;
     cursor: wait;
@@ -60,34 +61,36 @@
 #refresh{
     background-image: url(./asetgame/refresh.png);
     background-size: 100% 100%;
-    width: 70px;
+    width: 7vw;
     height: 70px;
-    margin-left: 40%;
+    margin-left: 28%;
     cursor: pointer;
 }
 #pemenang{
-    font-size: 7vh;
+    font-size: 3vw;
     color: red;
     position: absolute;
-    margin-left: 35%;
+    margin-left: 25%;
     margin-top: -250px;
     text-align: center;
+    font-weight: lighter;
 }
 .game1{
    margin-top: 90px;
    margin-left: 10%;
 }
 .pemain1{
-    font-size: 20px;
+    width: 40vw;
     font-weight: bold;
     position: absolute;
     margin-top: -50px;
-      margin-left: 4%;
+      margin-left: 5%;
+      display: inline-block;
 }
 .com{
-    font-size: 20px;
+    width: 40vw;
     margin-top: -50px;
-    margin-left: 50%;
+    margin-left: 35%;
     font-weight: bold;
     display: inline-block;
     position: absolute;
@@ -100,20 +103,20 @@
 }
 .tulisanlogo{
     display: inline;
-    font-size: 30px;
+    font-size: 3vh;
     color : #f6b23c;
-    margin-left: 10%;
+    margin-left: 8%;
         position: absolute;
-        margin-top: 13px;
+        margin-top: 19px;
 }
 .logo{
     display: inline-block;
     margin-left: 2%;
     position: absolute;
-    margin-top: 3px;
+    margin-top: 8px;
     background-image: url(./asetgame/logo2.png);
     background-size: 100% 100%;
-    width: 50px;
-    height: 50px;
+    width: 4vw;
+    height: 40px;
 
 }
