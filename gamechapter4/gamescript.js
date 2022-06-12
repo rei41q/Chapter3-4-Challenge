@@ -6,6 +6,9 @@ let indexplayer1=0,indexplayer2=0;
 let keteranganmenangplayer1 = "PLAYER 1 WIN";
 let keteranganmenangplayer2 = "COM WIN";
 let keterangandraw = "DRAW";
+
+
+
 function startgame(){
     for(let i = 1 ; i<player1.length ; i++){
         player1[i].addEventListener("click", handleClick.bind( null, i) );
