@@ -40,6 +40,9 @@ function resetbackground(){
 function gantibackgroundbot(i){
     player2[i].setAttribute("style","background-color : #c4c4c4");
 }
+function consolelogterminal(indexplayer,indexkomputer){
+    console.log(player1[indexplayer].id," X ", player2[indexkomputer].id," ",pemenang.innerHTML );
+}
 function setAttributemenang(){
     pemenang.setAttribute
     ("style",
@@ -49,6 +52,7 @@ function cekpemenang(indexplayer1, indexplayer2){
     if(indexplayer1 == 1 && indexplayer2 ==1){
         pemenang.innerHTML = keterangandraw;
         setAttributemenang();
+       
     }
     else if(indexplayer1 == 1 && indexplayer2 ==2){
         pemenang.innerHTML = keteranganmenangplayer2;
@@ -82,6 +86,7 @@ function cekpemenang(indexplayer1, indexplayer2){
         pemenang.innerHTML = keterangandraw;
         setAttributemenang();
     }
+    consolelogterminal(indexplayer1, indexplayer2);
     }
 startgame();
 
