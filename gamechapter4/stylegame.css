@@ -1,0 +1,106 @@
+ body{
+    background-color: #9b835f;
+ }
+ #p1batu{
+    background-image: url(./asetgame/batu.png);
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#p1gunting{
+    background-image: url(./asetgame/gunting.png);
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#p1kertas{
+    background-image: url(./asetgame/kertas.png);
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+/* .player1{
+    
+
+}
+.player2{
+  
+
+} */
+#p2batu{
+    background-image: url(./asetgame/batu.png);
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#p2gunting{
+    background-image: url(./asetgame/gunting.png);
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#p2kertas{
+    background-image: url(./asetgame/kertas.png);
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#refresh{
+    background-image: url(./asetgame/refresh.png);
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+#pemenang{
+    font-size: 50px;
+    color: red;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: -250px;
+    text-align: center;
+}
+.game1{
+   margin-top: 150px;
+   margin-left: 10%;
+}
+.pemain1{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -50px;
+      margin-left: 4%;
+}
+.com{
+    font-size: 20px;
+    margin-top: -50px;
+    margin-left: 50%;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+}
+.tombolkembali{
+    font-size: 50px;
+    color: #6b481e;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.tulisanlogo{
+    display: inline;
+    font-size: 30px;
+    color : #f6b23c;
+    margin-left: 10%;
+}

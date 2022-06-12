@@ -1,0 +1,18 @@
+.player1batu{
+    background-image: url(../game/asetgame/batu.png);
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+}
+.player1gunting{
+    background-image: url(../game/asetgame/gunting.png);
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+}
+.player1kertas{
+    background-image: url(../game/asetgame/kertas.png);
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+}
