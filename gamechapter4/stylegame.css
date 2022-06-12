@@ -33,7 +33,7 @@
   
 
 } */
-#p2batu{
+#botbatu{
     background-image: url(./asetgame/batu.png);
     background-size: 100% 100%;
     width: 80px;
@@ -41,7 +41,7 @@
     margin-bottom: 40px;
     cursor: wait;
 }
-#p2gunting{
+#botgunting{
     background-image: url(./asetgame/gunting.png);
     background-size: 100% 100%;
     width: 80px;
@@ -49,7 +49,7 @@
     margin-bottom: 40px;
     cursor: wait;
 }
-#p2kertas{
+#botkertas{
     background-image: url(./asetgame/kertas.png);
     background-size: 100% 100%;
     width: 80px;

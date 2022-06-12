@@ -1,6 +1,6 @@
 
 let player1 = document.getElementsByClassName("player1")
-let player2 = document.getElementsByClassName("player2");
+let player2 = document.getElementsByClassName("bot");
 let reset = document.getElementById("refresh");
 let indexplayer1=0,indexplayer2=0;
 let keteranganmenangplayer1 = "PLAYER 1 WIN";
