@@ -7,8 +7,6 @@ let keteranganmenangplayer1 = "PLAYER 1 WIN";
 let keteranganmenangplayer2 = "COM WIN";
 let keterangandraw = "DRAW";
 
-
-
 function startgame(){
     for(let i = 1 ; i<player1.length ; i++){
         player1[i].addEventListener("click", handleClick.bind( null, i) );
@@ -18,8 +16,6 @@ function komputermemilih(i){
    let randommemilih = Math.floor(Math.random() * 3) + 1;
     gantibackgroundbot(randommemilih);
     cekpemenang(i, randommemilih);
-
-
 }
 reset.onclick = function(){
     resetbackground();
@@ -87,6 +83,5 @@ function cekpemenang(indexplayer1, indexplayer2){
         setAttributemenang();
     }
     }
-
 startgame();
 
