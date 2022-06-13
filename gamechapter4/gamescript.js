@@ -98,4 +98,3 @@ function cekpemenang(indexplayer1, indexplayer2){
     consolelogterminal(indexplayer1, indexplayer2);
     }
 startgame();
-
