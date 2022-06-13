@@ -46,10 +46,10 @@ function resetbackground(){ //RESET BACKGROUND DENGAN ARRAY DAN PANJANG DARI JUM
           player2[i].setAttribute("style","background-color : none");
     }
     pemenang.innerHTML = "V S";
-    pemenang.setAttribute("style","background-color : none;color: red");
+    pemenang.setAttribute("style","background-color : none;color: #bd0102;");
 }
 function gantibackgroundbot(i){ //GANTI BACKGROUND MENGGUNAKAN ARRAY
-    player2[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px");
+    player2[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px;");
 }
 function consolelogterminal(indexplayer,indexkomputer){ //MENAMPILKAN DATA CONSOLE 
     console.log(player1[indexplayer].id," X ", player2[indexkomputer].id," ",pemenang.innerHTML );
@@ -57,8 +57,9 @@ function consolelogterminal(indexplayer,indexkomputer){ //MENAMPILKAN DATA CONSO
 function setAttributemenang(){ //DATA PEMENANG DITAMPILAN
     pemenang.setAttribute
     ("style",
-    "background-color : green;color: white;transform: rotate(-15deg);margin-left: 21%;width: 14vw");
+    "background-color : green;color: white;transform: rotate(-15deg);margin-left: 21%;width: 14vw;font-size: 3vw;border-radius: 5px");
 }
+
 function cekpemenang(indexplayer1, indexplayer2){ //LOGIKAN PENGECEKAN PEMENANGAN MENGGUNAKAN 2 INDEX DARI PLAYER 1 DAN BOT
     if(indexplayer1 == 1 && indexplayer2 ==1){
         pemenang.innerHTML = dataawal.keterangandraw;

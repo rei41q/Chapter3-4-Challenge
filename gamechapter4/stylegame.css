@@ -10,6 +10,11 @@ body{
     margin-bottom: 40px;
     cursor: pointer;
 }
+#p1batu:hover{
+    transform: rotate(70deg);
+    background-color: #c4c4c4;
+    border-radius: 15px;
+}
 #p1gunting{
     background-image: url(./asetgame/gunting.png);
     background-size: 100% 100%;
@@ -18,6 +23,11 @@ body{
     margin-bottom: 40px;
     cursor: pointer;
 }
+#p1gunting:hover{
+    transform: rotate(70deg);
+    background-color: #c4c4c4;
+    border-radius: 15px;
+}
 #p1kertas{
     background-image: url(./asetgame/kertas.png);
     background-size: 100% 100%;
@@ -25,6 +35,11 @@ body{
     height: 80px;
     margin-bottom: 40px;
     cursor: pointer;
+}
+#p1kertas:hover{
+    transform: rotate(70deg);
+    background-color: #c4c4c4;
+    border-radius: 15px;
 }
 /* .player1{
     
@@ -67,13 +82,13 @@ body{
     cursor: pointer;
 }
 #pemenang{
-    font-size: 3vw;
-    color: red;
+    font-size: 5vw;
+    color: #bd0102;
     position: absolute;
     margin-left: 25%;
     margin-top: -250px;
     text-align: center;
-    font-weight: lighter;
+    font-weight:bold;
 }
 .game1{
    margin-top: 90px;
