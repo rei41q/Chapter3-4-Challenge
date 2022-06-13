@@ -67,8 +67,8 @@ function setAttributemenang(){ //DATA PEMENANG DITAMPILAN
 }
 
 function datascor(pemain1scor,bot1scor){
-    scorplayer1[0].innerHTML ="PLAYER 1 - SCOR : "+ pemain1scor;
-    scorcom[0].innerHTML ="COM - SCOR : "+ bot1scor;
+    scorplayer1[0].innerHTML ="PLAYER 1-SCOR: "+ pemain1scor;
+    scorcom[0].innerHTML ="COM-SCOR: "+ bot1scor;
 }
 function cekpemenang(indexplayer1, indexplayer2){ //LOGIKAN PENGECEKAN PEMENANGAN MENGGUNAKAN 2 INDEX DARI PLAYER 1 DAN BOT
     if(indexplayer1 == 1 && indexplayer2 ==1){
