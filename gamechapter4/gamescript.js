@@ -31,7 +31,7 @@ function handleClick(i) {
         komputermemilih(i);
 }
 function gantibackground(i){
-    player1[i].setAttribute("style","background-color : #c4c4c4;");
+    player1[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px;");
 }
 function resetbackground(){
     for(let i = 1 ; i<player1.length ; i++){
@@ -42,7 +42,7 @@ function resetbackground(){
     pemenang.setAttribute("style","background-color : none;color: red");
 }
 function gantibackgroundbot(i){
-    player2[i].setAttribute("style","background-color : #c4c4c4");
+    player2[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px");
 }
 function consolelogterminal(indexplayer,indexkomputer){
     console.log(player1[indexplayer].id," X ", player2[indexkomputer].id," ",pemenang.innerHTML );
