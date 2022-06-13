@@ -11,8 +11,7 @@ body{
     cursor: pointer;
 }
 #p1batu:hover{
-    transform: rotate(70deg);
-    background-color: #c4c4c4;
+    background-color: rgba(1, 30, 59, 0.486);
     border-radius: 15px;
 }
 #p1gunting{
@@ -24,8 +23,7 @@ body{
     cursor: pointer;
 }
 #p1gunting:hover{
-    transform: rotate(70deg);
-    background-color: #c4c4c4;
+    background-color: rgba(1, 30, 59, 0.486);
     border-radius: 15px;
 }
 #p1kertas{
@@ -37,8 +35,7 @@ body{
     cursor: pointer;
 }
 #p1kertas:hover{
-    transform: rotate(70deg);
-    background-color: #c4c4c4;
+    background-color: rgba(1, 30, 59, 0.486);
     border-radius: 15px;
 }
 /* .player1{
@@ -94,7 +91,7 @@ body{
    margin-top: 90px;
    margin-left: 10%;
 }
-.pemain1{
+.pemain11{
     width: 40vw;
     font-weight: bold;
     position: absolute;
