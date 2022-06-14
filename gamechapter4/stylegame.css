@@ -78,6 +78,10 @@ body{
     margin-left: 28%;
     cursor: pointer;
 }
+#refresh:hover{
+   transform:rotate(-30deg);
+}
+
 #pemenang{
     font-size: 5vw;
     color: #bd0102;
