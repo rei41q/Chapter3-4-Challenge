@@ -1,6 +1,6 @@
 //DATA GLOBAL DIPANGGIL
-let player1 = document.getElementsByClassName("player1")
-let player2 = document.getElementsByClassName("bot");
+let player1 = document.querySelectorAll(".player1");
+let player2 = document.querySelectorAll(".bot");
 let reset = document.getElementById("refresh");
 let scorplayer1 = document.getElementsByClassName("pemain11");
 let scorcom = document.getElementsByClassName("com");
