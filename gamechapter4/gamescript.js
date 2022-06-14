@@ -59,7 +59,7 @@ function gantiBackgroundBot(i){ //GANTI BACKGROUND MENGGUNAKAN ARRAY
 function consoleLogTerminal(indexPlayer,indexKomputer){ //MENAMPILKAN DATA CONSOLE 
     console.log(player1[indexPlayer].id," X ", player2[indexKomputer].id," ",pemenang.innerHTML );
 }
-function setAttributemenang(){ //DATA PEMENANG DITAMPILAN
+function setAttributeMenang(){ //DATA PEMENANG DITAMPILAN
     pemenang.setAttribute
     ("style",
     "background-color : green;color: white;transform: rotate(-15deg);margin-left: 21%;width: 14vw;font-size: 3vw;border-radius: 5px");
@@ -73,46 +73,46 @@ function dataScor(pemain1scor,bot1scor){
 function cekPemenang(indexPlayer1, indexPlayer2){ //LOGIKAN PENGECEKAN PEMENANGAN MENGGUNAKAN 2 INDEX DARI PLAYER 1 DAN BOT
     if(indexPlayer1 == 1 && indexPlayer2 ==1){
         pemenang.innerHTML = dataAwal.keteranganDraw;
-        setAttributemenang();
+        setAttributeMenang();
        
     }
     else if(indexPlayer1 == 1 && indexPlayer2 ==2){
         pemenang.innerHTML = bot1.keteranganMenang;
         bot1.scor++;
-        setAttributemenang();
+        setAttributeMenang();
     }
     else if(indexPlayer1 == 1 && indexPlayer2 ==3){
         pemenang.innerHTML =   pemain1.keteranganMenang;
         pemain1.scor++;
-        setAttributemenang();
+        setAttributeMenang();
     }
     else if(indexPlayer1 == 2 && indexPlayer2 ==1){
         pemenang.innerHTML =   pemain1.keteranganMenang;
         pemain1.scor++;
-        setAttributemenang();
+        setAttributeMenang();
     }
     else if(indexPlayer1 == 2 && indexPlayer2 ==2){
         pemenang.innerHTML =  dataAwal.keteranganDraw;
-        setAttributemenang();
+        setAttributeMenang();
     }
     else if(indexPlayer1 == 2 && indexPlayer2 ==3){
         pemenang.innerHTML =   bot1.keteranganMenang;
         bot1.scor++;
-        setAttributemenang();
+        setAttributeMenang();
     }
     else if(indexPlayer1 == 3 && indexPlayer2 ==1){
         pemenang.innerHTML =   bot1.keteranganMenang;
         bot1.scor++;
-        setAttributemenang();
+        setAttributeMenang();
     }
     else if(indexPlayer1 == 3 && indexPlayer2 ==2){
         pemenang.innerHTML =   pemain1.keteranganMenang;
         pemain1.scor++;
-        setAttributemenang();
+        setAttributeMenang();
     }
     else if(indexPlayer1 == 3 && indexPlayer2 ==3){
         pemenang.innerHTML =  dataAwal.keteranganDraw;
-        setAttributemenang();
+        setAttributeMenang();
     }
     consoleLogTerminal(indexPlayer1, indexPlayer2);
     }
