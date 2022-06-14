@@ -36,12 +36,12 @@ reset.onclick = function(){ //ONLCIK MEMANGGIL FUNCTION resetBackground
 function handleClick(i) { //SAAT DIKLIK MEMANGGIL RESET BACKGROUND, GANTI BACKGROUND 
     //DAN MENYIMPAN indexPlayer AGAR DILAKUKAN LOGIKA PENGECEKAN
         resetBackground(); 
-        gantibackground(i);
+        gantiBackground(i);
         pemain1.indexPlayer = i;
         komputerMemilih(i);
-        //SELANJUTNYA KOMPUTER MEMILIH 
+        //SELANJUTNindexkomputergantYA KOMPUTER MEMILIH 
 }
-function gantibackground(i){ //GANTI BACKGROUND DENG SETATTRIBUTE
+function gantiBackground(i){ //GANTI BACKGROUND DENG SETATTRIBUTE
     player1[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px;");
 }
 function resetBackground(){ //RESET BACKGROUND DENGAN ARRAY DAN PANJANG DARI JUMLAH CLASS PLAYER1

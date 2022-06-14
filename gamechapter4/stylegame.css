@@ -2,7 +2,7 @@ body{
     background-color: #9b835f;
 
  }
- #p1batu{
+ #p1Batu{
     background-image: url(./asetgame/batu.png);
     background-size: 100% 100%;
     width: 7vw;
@@ -10,11 +10,11 @@ body{
     margin-bottom: 40px;
     cursor: pointer;
 }
-#p1batu:hover{
+#p1Batu:hover{
     background-color: rgba(1, 30, 59, 0.486) /*!important*/;
     border-radius: 15px;
 }
-#p1gunting{
+#p1Gunting{
     background-image: url(./asetgame/gunting.png);
     background-size: 100% 100%;
     width: 7vw;
@@ -22,11 +22,11 @@ body{
     margin-bottom: 40px;
     cursor: pointer;
 }
-#p1gunting:hover{
+#p1Gunting:hover{
     background-color: rgba(1, 30, 59, 0.486) /*!important*/;
     border-radius: 15px;
 }
-#p1kertas{
+#p1Kertas{
     background-image: url(./asetgame/kertas.png);
     background-size: 100% 100%;
     width: 7vw;
@@ -34,7 +34,7 @@ body{
     margin-bottom: 40px;
     cursor: pointer;
 }
-#p1kertas:hover{
+#p1Kertas:hover{
     background-color: rgba(1, 30, 59, 0.486) /*!important*/;
     border-radius: 15px;
 }
@@ -46,7 +46,7 @@ body{
   
 
 } */
-#botbatu{
+#botBatu{
     background-image: url(./asetgame/batu.png);
     background-size: 100% 100%;
     width: 7vw;
@@ -54,7 +54,7 @@ body{
     margin-bottom: 40px;
     cursor: wait;
 }
-#botgunting{
+#botGunting{
     background-image: url(./asetgame/gunting.png);
     background-size: 100% 100%;
     width: 7vw;
@@ -62,7 +62,7 @@ body{
     margin-bottom: 40px;
     cursor: wait;
 }
-#botkertas{
+#botKertas{
     background-image: url(./asetgame/kertas.png);
     background-size: 100% 100%;
     width: 7vw;
@@ -107,13 +107,13 @@ body{
     display: inline-block;
     position: absolute;
 }
-.tombolkembali{
+.tombolKembali{
     font-size: 50px;
     color: #6b481e;
     font-weight: bolder;
     cursor: pointer;
 }
-.tulisanlogo{
+.tulisanLogo{
     display: inline;
     font-size: 3vh;
     color : #f6b23c;
