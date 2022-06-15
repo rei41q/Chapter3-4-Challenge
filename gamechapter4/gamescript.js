@@ -70,7 +70,7 @@ function dataScore(pemain1Score,bot1Score){
     ScorePlayer1[0].innerHTML ="PLAYER 1-Score: "+ pemain1Score;
     ScoreCom[0].innerHTML ="COM-Score: "+ bot1Score;
 }
-function cekPemenang(indexPlayer1, indexPlayer2){ //LOGIKAN PENGECEKAN PEMENANGAN MENGGUNAKAN 2 INDEX DARI PLAYER 1 DAN BOT
+function cekPemenang(indexPlayer1, indexPlayer2){ //LOGIKA PENGECEKAN PEMENANGAN MENGGUNAKAN 2 INDEX DARI PLAYER 1 DAN BOT
     if(indexPlayer1 == 1 && indexPlayer2 ==1){
         pemenang.innerHTML = dataAwal.keteranganDraw;
         setAttributeMenang();
