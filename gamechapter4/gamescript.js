@@ -22,7 +22,6 @@ class dataPemain{ //CLASS CONSTRUCTOR DATA PLAYER 1 DAN BOT
         }
     }
 }
-
 let pemain1 = new dataPemain(0,"PLAYER 1 WIN",0,"Player 1"); //OBJEK PEMAIN 1
 let bot1 = new dataPemain(0,"COM WIN",0,"Bot/Com") //OBJEK BOT
 
