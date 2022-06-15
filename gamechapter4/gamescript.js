@@ -14,14 +14,15 @@ class dataPemain{ //CLASS CONSTRUCTOR DATA PLAYER 1 DAN BOT
         this.Score = Score;
         this.status = status;
     }
-    gantiBackgroundInClass(i){ //GANTI BACKGROUND SAAT KLIK PILIHAN PLAYER1/BOT IN CLASS
+    gantiBackgroundInClass(indexPilihanPemain){ //GANTI BACKGROUND SAAT KLIK PILIHAN PLAYER1/BOT IN CLASS
         if(this.status == "Player 1")
-        player1[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px;");
+        gantiBackground(player1,indexPilihanPemain);
         else{
-        player2[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px;");
+        gantiBackground(player2,indexPilihanPemain);
         }
     }
 }
+
 let pemain1 = new dataPemain(0,"PLAYER 1 WIN",0,"Player 1"); //OBJEK PEMAIN 1
 let bot1 = new dataPemain(0,"COM WIN",0,"Bot/Com") //OBJEK BOT
 
@@ -29,6 +30,10 @@ function startgame(){
     for(let i = 1 ; i<player1.length ; i++){ //CEK CLIK MENGGUNAKAN ARRAY
         player1[i].addEventListener("click", handleClick.bind( null, i) );
     }
+}
+function gantiBackground(playerPilihan,i){
+    playerPilihan[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px;");
+
 }
 function komputerMemilih(i){ //KOMPUTER MEMILIH MENGGUNAKAN RANDOM MATH FLOOR
    let randomMemilih = Math.floor(Math.random() * 3) + 1;
