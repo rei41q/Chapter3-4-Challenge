@@ -8,14 +8,22 @@ class dataAwal{ //CLASS DATA AWAL YG SIAP DIPAKE
     static keteranganDraw = "DRAW";
 }
 class dataPemain{ //CLASS CONSTRUCTOR DATA PLAYER 1 DAN BOT
-    constructor(indexPlayer,keteranganMenang,Score){
+    constructor(indexPlayer,keteranganMenang,Score,status){
         this.indexPlayer = indexPlayer;
         this.keteranganMenang = keteranganMenang;
         this.Score = Score;
+        this.status = status;
+    }
+    gantiBackgroundInClass(i){ //GANTI BACKGROUND SAAT KLIK PILIHAN PLAYER1/BOT IN CLASS
+        if(this.status == "Player 1")
+        player1[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px;");
+        else{
+        player2[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px;");
+        }
     }
 }
-let pemain1 = new dataPemain(0,"PLAYER 1 WIN",0); //OBJEK PEMAIN 1
-let bot1 = new dataPemain(0,"COM WIN",0) //OBJEK BOT
+let pemain1 = new dataPemain(0,"PLAYER 1 WIN",0,"Player 1"); //OBJEK PEMAIN 1
+let bot1 = new dataPemain(0,"COM WIN",0,"Bot/Com") //OBJEK BOT
 
 function startgame(){
     for(let i = 1 ; i<player1.length ; i++){ //CEK CLIK MENGGUNAKAN ARRAY
@@ -24,7 +32,8 @@ function startgame(){
 }
 function komputerMemilih(i){ //KOMPUTER MEMILIH MENGGUNAKAN RANDOM MATH FLOOR
    let randomMemilih = Math.floor(Math.random() * 3) + 1;
-    gantiBackgroundBot(randomMemilih);
+    bot1.indexPlayer = randomMemilih;
+    bot1.gantiBackgroundInClass(randomMemilih);
     cekPemenang(i, randomMemilih);
 }
 reset.onclick = function(){ //ONLCIK MEMANGGIL FUNCTION resetBackground
@@ -36,13 +45,10 @@ reset.onclick = function(){ //ONLCIK MEMANGGIL FUNCTION resetBackground
 function handleClick(i) { //SAAT DIKLIK MEMANGGIL RESET BACKGROUND, GANTI BACKGROUND 
     //DAN MENYIMPAN indexPlayer AGAR DILAKUKAN LOGIKA PENGECEKAN
         resetBackground(); 
-        gantiBackground(i);
+        pemain1.gantiBackgroundInClass(i);
         pemain1.indexPlayer = i;
         komputerMemilih(i);
         //SELANJUTNindexkomputergantYA KOMPUTER MEMILIH 
-}
-function gantiBackground(i){ //GANTI BACKGROUND DENG SETATTRIBUTE
-    player1[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px;");
 }
 function resetBackground(){ //RESET BACKGROUND DENGAN ARRAY DAN PANJANG DARI JUMLAH CLASS PLAYER1
     for(let i = 1 ; i<player1.length ; i++){
@@ -51,10 +57,6 @@ function resetBackground(){ //RESET BACKGROUND DENGAN ARRAY DAN PANJANG DARI JUM
     }
     pemenang.innerHTML = "V S";
     pemenang.setAttribute("style","background-color : none;color: #bd0102;");
-
-}
-function gantiBackgroundBot(i){ //GANTI BACKGROUND MENGGUNAKAN ARRAY
-    player2[i].setAttribute("style","background-color : #c4c4c4;border-radius: 15px;");
 }
 function consoleLogTerminal(indexPlayer,indexKomputer){ //MENAMPILKAN DATA CONSOLE 
     console.log(player1[indexPlayer].id," X ", player2[indexKomputer].id," ",pemenang.innerHTML );
@@ -73,8 +75,7 @@ function dataScore(pemain1Score,bot1Score){
 function cekPemenang(indexPlayer1, indexPlayer2){ //LOGIKA PENGECEKAN PEMENANGAN MENGGUNAKAN 2 INDEX DARI PLAYER 1 DAN BOT
     if(indexPlayer1 == 1 && indexPlayer2 ==1){
         pemenang.innerHTML = dataAwal.keteranganDraw;
-        setAttributeMenang();
-       
+        setAttributeMenang();      
     }
     else if(indexPlayer1 == 1 && indexPlayer2 ==2){
         pemenang.innerHTML = bot1.keteranganMenang;
